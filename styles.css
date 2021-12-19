@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 body{
+    background: rgb(238,174,202);
+    background: linear-gradient(45deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    margin-top: 4cm;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 .card{
-    margin: auto;
     width: 250px;
     height: 250px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
@@ -19,7 +20,7 @@ body{
     display: flex;
     border-radius: 20px;
     justify-content: center;
-    position: relative;
+    position: fixed;
     transition: all .4s;
 }
 .card img{
@@ -38,31 +39,31 @@ body{
     width: 265px;
 }
 .card::before{
-    content: 'ILHAM YUDIATMOKO';
+    content: 'Ilham Yudiatmoko';
     position: absolute;
-    bottom: 5px;
-    color: rgb(0, 0, 0);
-    font-family: 'JetBrains Mono';
-    font-weight: 900;
-}
-footer{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    bottom: 4px;
+    color: #0a3d62;
+    font-weight: 500;
 }
 .iam{
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     font-weight: 00;
-    color: #0a3d62;
+    color: #ffffff;
     font-size: 60px;
     padding: 15px;
 }
 .text{
+     text-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     margin-left: 1px;
     font-weight: 500;
-    color: #f6b93b;
-    border-right: 2px solid #f6b93b;
+    color: #0a3d62;
+    border-right: 2px solid #0a3d62;
     font-size: 60px;
-
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 6.5cm;
+    position: fixed;
 }
