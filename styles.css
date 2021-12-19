@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+}
+.card:hover img{
+    margin-top: -30px;
+}
+.card:hover{
+    width: 265px;
+}
+.card::before{
+    content: 'ILHAM YUDIATMOKO';
+    position: absolute;
+    bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono';
+    font-weight: 900;
+}
