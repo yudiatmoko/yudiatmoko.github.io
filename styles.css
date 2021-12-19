@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Keep Calm';
     box-sizing: border-box;
-    font-family: 'JetBrains Mono';
 }
 body{
     display: flex;
@@ -44,4 +44,25 @@ body{
     color: rgb(0, 0, 0);
     font-family: 'JetBrains Mono';
     font-weight: 900;
+}
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.iam{
+    font-weight: 00;
+    color: #0a3d62;
+    font-size: 60px;
+    padding: 15px;
+}
+.text{
+    margin-left: 1px;
+    font-weight: 500;
+    color: #f6b93b;
+    border-right: 2px solid #f6b93b;
+    font-size: 60px;
+
 }
