@@ -8,10 +8,11 @@
 body{
     background: rgb(238,174,202);
     background: linear-gradient(45deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
-    margin-top: 4cm;
+    /* margin-top: 4cm; */
     display: flex;
     justify-content: center;
     height: 100vh;
+    align-items: center;
 }
 .card{
     width: 250px;
@@ -21,7 +22,7 @@ body{
     display: flex;
     border-radius: 20px;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     transition: all .4s;
 }
 .card img{
@@ -66,6 +67,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 6.5cm;
-    position: fixed;
+    margin-top: 9cm;
+    position: absolute;
 }
